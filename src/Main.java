@@ -17,8 +17,14 @@ public class Main {
             System.out.println("Universe: " + universe);
             List<JSONObject> aliens = universes.get(universe);
 
-            for (JSONObject alien : aliens) {
-                System.out.println("Alien: " + alien);
+            for (Map<String, Object> alien : aliens) {
+                System.out.println("ID: " + alien.get("id"));
+                System.out.println("Alien Data: ");
+                System.out.println("  Planet: " + alien.get("planet"));
+                System.out.println("  isHumanoid: " + alien.get("isHumanoid"));
+                System.out.println("  Age: " + alien.get("age"));
+                System.out.println("  Traits: " + alien.get("traits"));
+                System.out.println();
             }
 
             System.out.println("---------------------");

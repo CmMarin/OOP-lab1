@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4994d53f-1d1e-480d-b207-7386448c3b3d" name="Changes" comment="Day 3.1 Task; modified the parser to include classification v1 - it is only for testing purposes it will be updated in the next commit; just trying out the mapping function">
-      <change afterPath="$PROJECT_DIR$/src/AliensClassification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Universes.java" afterDir="false" />
+    <list default="true" id="4994d53f-1d1e-480d-b207-7386448c3b3d" name="Changes" comment="Day 3.5-4 Task; added a classification based on score-matching; added all the criteria to the classification class (which will be updated); updated the universe class to contain all known species in their respective universe, and the method of getting them">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aliens.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AliensClassification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AliensClassification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Universe.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsonParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728736199016</updated>
-      <workItem from="1728736202069" duration="8190000" />
+      <workItem from="1728736202069" duration="9152000" />
     </task>
     <task id="LOCAL-00001" summary="Day 2 task: created a separate class for the json parser; it will now read the test input file (json) and print out the aliens; also it will default to some values in case they were not provided">
       <option name="closed" value="true" />
@@ -105,16 +102,36 @@
       <option name="project" value="LOCAL" />
       <updated>1728743528596</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Day 3.5-4 Task; added a classification based on score-matching; added all the criteria to the classification class (which will be updated); updated the universe class to contain all known species in their respective universe, and the method of getting them">
+      <option name="closed" value="true" />
+      <created>1728766883860</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728766883860</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="GitHub.CommitStatus" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 1 task; created a simple class for items (aliens); and one that will store them in an array list to start the design process" />
     <MESSAGE value="Day 2 task: created a separate class for the json parser; it will now read the test input file (json) and print out the aliens; also it will default to some values in case they were not provided" />
     <MESSAGE value="Day 3.1 Task; modified the parser to include classification v1 - it is only for testing purposes it will be updated in the next commit; just trying out the mapping function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 3.1 Task; modified the parser to include classification v1 - it is only for testing purposes it will be updated in the next commit; just trying out the mapping function" />
+    <MESSAGE value="Day 3.5-4 Task; added a classification based on score-matching; added all the criteria to the classification class (which will be updated); updated the universe class to contain all known species in their respective universe, and the method of getting them" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 3.5-4 Task; added a classification based on score-matching; added all the criteria to the classification class (which will be updated); updated the universe class to contain all known species in their respective universe, and the method of getting them" />
   </component>
 </project>
