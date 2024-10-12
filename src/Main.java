@@ -1,6 +1,7 @@
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -13,8 +14,19 @@ public class Main {
 //new instance for parser
         jsonParser parser = new jsonParser();
 
-        parser.parseJson("resources/test_input.json");//locagtion of the file i need to read
+        Map<String, List<JSONObject>> universes = parser.classifyAliens("resources/test_input.json");
 
+        // Print out the universes and the aliens in them
+        for (String universe : universes.keySet()) {
+            System.out.println("Universe: " + universe);
+            List<JSONObject> aliens = universes.get(universe);
+
+            for (JSONObject alien : aliens) {
+                System.out.println("Alien: " + alien);
+            }
+
+            System.out.println("---------------------");
+        }
     }
 
 

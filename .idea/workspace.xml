@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4994d53f-1d1e-480d-b207-7386448c3b3d" name="Changes" comment="Day 1 task; created a simple class for items (aliens); and one that will store them in an array list to start the design process">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/googlecode_json_simple.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/test_input.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jsonParser.java" afterDir="false" />
+    <list default="true" id="4994d53f-1d1e-480d-b207-7386448c3b3d" name="Changes" comment="Day 2 task: created a separate class for the json parser; it will now read the test input file (json) and print out the aliens; also it will default to some values in case they were not provided">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop-lab1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/oop-lab1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aliens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aliens.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Universe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Universe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsonParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "Application.jsonParser.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
@@ -87,8 +83,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728736199016</updated>
-      <workItem from="1728736202069" duration="648000" />
+      <workItem from="1728736202069" duration="4689000" />
     </task>
+    <task id="LOCAL-00001" summary="Day 2 task: created a separate class for the json parser; it will now read the test input file (json) and print out the aliens; also it will default to some values in case they were not provided">
+      <option name="closed" value="true" />
+      <created>1728737320975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728737320975</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 1 task; created a simple class for items (aliens); and one that will store them in an array list to start the design process" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 1 task; created a simple class for items (aliens); and one that will store them in an array list to start the design process" />
+    <MESSAGE value="Day 2 task: created a separate class for the json parser; it will now read the test input file (json) and print out the aliens; also it will default to some values in case they were not provided" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 2 task: created a separate class for the json parser; it will now read the test input file (json) and print out the aliens; also it will default to some values in case they were not provided" />
   </component>
 </project>
