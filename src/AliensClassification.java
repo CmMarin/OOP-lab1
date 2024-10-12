@@ -61,7 +61,7 @@ public class AliensClassification {
         Map<String, Object> elfCriteria = new HashMap<>();
         elfCriteria.put("isHumanoid", true);
         elfCriteria.put("planet", "Earth");
-        elfCriteria.put("age", null);  // Indefinite age
+        elfCriteria.put("age", null);
         elfCriteria.put("traits", Arrays.asList("BLONDE", "POINTY_EARS"));
         lotrSpecies.put("Elf", elfCriteria);
 
