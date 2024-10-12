@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11a65d20-7a5e-4660-87e1-415f9490ce7c" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/Aliens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Universe.java" afterDir="false" />
+    <list default="true" id="4994d53f-1d1e-480d-b207-7386448c3b3d" name="Changes" comment="Day 1 task; created a simple class for items (aliens); and one that will store them in an array list to start the design process">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/googlecode_json_simple.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/test_input.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsonParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop-lab1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/oop-lab1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aliens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aliens.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Universe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Universe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +27,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -43,9 +42,9 @@
   }
 }]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
+  "associatedIndex": 3
 }]]></component>
-  <component name="ProjectId" id="2nFfc2uSBktAqP9U86Jji7o7R7e" />
+  <component name="ProjectId" id="2nKyjNltz8Tw3pcECUYgk6SwCs6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -53,16 +52,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
+    "Application.jsonParser.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "oop-intro-classification-system",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Marin/IdeaProjects/oop-lab1/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -77,29 +82,20 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="11a65d20-7a5e-4660-87e1-415f9490ce7c" name="Changes" comment="" />
-      <created>1728573824360</created>
+      <changelist id="4994d53f-1d1e-480d-b207-7386448c3b3d" name="Changes" comment="Day 1 task; created a simple class for items (aliens); and one that will store them in an array list to start the design process" />
+      <created>1728736199016</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1728573824360</updated>
-      <workItem from="1728573826348" duration="7515000" />
+      <updated>1728736199016</updated>
+      <workItem from="1728736202069" duration="648000" />
     </task>
-    <task id="LOCAL-00001" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1728573957449</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1728573957449</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Day 1 task; created a simple class for items (aliens); and one that will store them in an array list to start the design process" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 1 task; created a simple class for items (aliens); and one that will store them in an array list to start the design process" />
   </component>
 </project>

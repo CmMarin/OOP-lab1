@@ -1,20 +1,24 @@
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Papers, please!");
+//new instance for parser
+        jsonParser parser = new jsonParser();
 
-        Universe universe = new Universe();
+        parser.parseJson("resources/test_input.json");//locagtion of the file i need to read
 
-        Aliens alien1 = new Aliens("Thor", "Asgard", true, 800 );
-        Aliens alien2 = new Aliens("Hulk", null, false, 360 );
-        Aliens alien3 = new Aliens("Yoda", null, false, 800 );
-
-
-        universe.addAlien(alien1);
-        universe.addAlien(alien2);
-        universe.addAlien(alien3);
-
-        universe.displayAliens();
     }
 
 
 }
+
+
+//commented aliens.java and universe.java for the moment, since i want to re-build those in the next commit
