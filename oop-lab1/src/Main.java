@@ -1,6 +1,5 @@
 import java.util.List;
 import java.util.Map;
-import org.json.simple.JSONObject;
 import java.util.Arrays;
 
 public class Main {
