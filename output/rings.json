@@ -1,0 +1,29 @@
+{
+    "name": "LOTR Universe",
+    "individuals": [
+        {
+            "isHumanoid": true,
+            "traits": null,
+            "id": 3,
+            "age": 7523
+        },
+        {
+            "isHumanoid": true,
+            "traits": [
+                "POINTY_EARS",
+                "BLONDE"
+            ],
+            "id": 1,
+            "age": 180
+        },
+        {
+            "isHumanoid": true,
+            "traits": [
+                "POINTY_EARS",
+                "BLONDE"
+            ],
+            "id": 2,
+            "age": 50
+        }
+    ]
+}

@@ -1,19 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="11a65d20-7a5e-4660-87e1-415f9490ce7c" name="Changes" comment="" />
+    <list default="true" id="4994d53f-1d1e-480d-b207-7386448c3b3d" name="Changes" comment="Day 5 Task: removed printing in the console; added writing to output files and pretty formatting" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "CmMarin"
+  }
 }]]></component>
-  <component name="ProjectId" id="2nFfc2uSBktAqP9U86Jji7o7R7e" />
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/CmMarin/OOP-lab1.git",
+    "accountId": "d1ae0325-48f9-4981-9c19-2a1dbd4363a2"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2nKyjNltz8Tw3pcECUYgk6SwCs6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,11 +43,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.jsonParser.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "oop-intro-classification-system",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Marin/IdeaProjects/oop-lab1/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -40,27 +74,86 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="11a65d20-7a5e-4660-87e1-415f9490ce7c" name="Changes" comment="" />
-      <created>1728573824360</created>
+      <changelist id="4994d53f-1d1e-480d-b207-7386448c3b3d" name="Changes" comment="Day 1 task; created a simple class for items (aliens); and one that will store them in an array list to start the design process" />
+      <created>1728736199016</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1728573824360</updated>
-      <workItem from="1728573826348" duration="11000" />
+      <updated>1728736199016</updated>
+      <workItem from="1728736202069" duration="11789000" />
     </task>
+    <task id="LOCAL-00001" summary="Day 2 task: created a separate class for the json parser; it will now read the test input file (json) and print out the aliens; also it will default to some values in case they were not provided">
+      <option name="closed" value="true" />
+      <created>1728737320975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728737320975</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Day 3.1 Task; modified the parser to include classification v1 - it is only for testing purposes it will be updated in the next commit; just trying out the mapping function">
+      <option name="closed" value="true" />
+      <created>1728743528596</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728743528596</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Day 3.5-4 Task; added a classification based on score-matching; added all the criteria to the classification class (which will be updated); updated the universe class to contain all known species in their respective universe, and the method of getting them">
+      <option name="closed" value="true" />
+      <created>1728766883860</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728766883860</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Day 4.1 Task: Made printing changes so it would not printing the raw data parsed, but it would be neatly shown in the console (for the moment)">
+      <option name="closed" value="true" />
+      <created>1728767779418</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728767779418</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Day 4.2 Task: Now we can classify aliens from multiple json files">
+      <option name="closed" value="true" />
+      <created>1728770981829</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728770981829</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Day 5 Task: removed printing in the console; added writing to output files and pretty formatting">
+      <option name="closed" value="true" />
+      <created>1728866358363</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728866358363</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="GitHub.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Day 1 task; created a simple class for items (aliens); and one that will store them in an array list to start the design process" />
+    <MESSAGE value="Day 2 task: created a separate class for the json parser; it will now read the test input file (json) and print out the aliens; also it will default to some values in case they were not provided" />
+    <MESSAGE value="Day 3.1 Task; modified the parser to include classification v1 - it is only for testing purposes it will be updated in the next commit; just trying out the mapping function" />
+    <MESSAGE value="Day 3.5-4 Task; added a classification based on score-matching; added all the criteria to the classification class (which will be updated); updated the universe class to contain all known species in their respective universe, and the method of getting them" />
+    <MESSAGE value="Day 4.1 Task: Made printing changes so it would not printing the raw data parsed, but it would be neatly shown in the console (for the moment)" />
+    <MESSAGE value="Day 4.2 Task: Now we can classify aliens from multiple json files" />
+    <MESSAGE value="Day 5 Task: removed printing in the console; added writing to output files and pretty formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 5 Task: removed printing in the console; added writing to output files and pretty formatting" />
   </component>
 </project>

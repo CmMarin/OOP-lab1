@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "isHumanoid": false,
+      "planet": "Kashyyk",
+      "age": 350,
+      "traits": ["HAIRY", "TALL"]
+    },
+    {
+      "id": 1,
+      "isHumanoid": true,
+      "planet": "Asgard",
+      "age": 1000,
+      "traits": ["TALL"]
+    },
+    {
+      "id": 2,
+      "isHumanoid": true,
+      "planet": "Earth",
+      "age": 50,
+      "traits": ["POINTY_EARS", "BLONDE"]
+    },
+    {
+      "id": 3,
+      "isHumanoid": false,
+      "planet": "BETELGEUSE",
+      "age": 70,
+      "traits": ["EXTRA_HEAD"]
+    },
+    {
+      "id": 4,
+      "isHumanoid": false,
+      "planet": "Vogsphere",
+      "age": 200,
+      "traits": ["BULKY"]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+    "name": "Hitchhiker's Universe",
+    "individuals": [
+        {
+            "isHumanoid": false,
+            "traits": [
+                "GREEN"
+            ],
+            "id": 2,
+            "age": 128
+        },
+        {
+            "isHumanoid": false,
+            "traits": [
+                "BULKY"
+            ],
+            "id": 5,
+            "age": -1
+        },
+        {
+            "isHumanoid": false,
+            "traits": [
+                "BULKY",
+                "GREEN"
+            ],
+            "id": 4,
+            "age": 150
+        },
+        {
+            "isHumanoid": false,
+            "traits": [
+                "EXTRA_HEAD"
+            ],
+            "id": 3,
+            "age": 70
+        },
+        {
+            "isHumanoid": false,
+            "traits": [
+                "BULKY"
+            ],
+            "id": 4,
+            "age": 200
+        }
+    ]
+}

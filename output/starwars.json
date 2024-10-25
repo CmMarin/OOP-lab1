@@ -1,0 +1,46 @@
+{
+    "name": "StarWars Universe",
+    "individuals": [
+        {
+            "isHumanoid": false,
+            "traits": null,
+            "id": 1,
+            "age": 22
+        },
+        {
+            "isHumanoid": false,
+            "traits": [
+                "EXTRA_ARMS"
+            ],
+            "id": 4,
+            "age": 26
+        },
+        {
+            "isHumanoid": false,
+            "traits": [
+                "SHORT",
+                "HAIRY"
+            ],
+            "id": 0,
+            "age": 60
+        },
+        {
+            "isHumanoid": false,
+            "traits": [
+                "TALL",
+                "HAIRY"
+            ],
+            "id": 2,
+            "age": 300
+        },
+        {
+            "isHumanoid": false,
+            "traits": [
+                "HAIRY",
+                "TALL"
+            ],
+            "id": 0,
+            "age": 350
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Marvel Universe",
+    "individuals": [
+        {
+            "isHumanoid": true,
+            "traits": [
+                "BLONDE",
+                "TALL"
+            ],
+            "id": 0,
+            "age": 2034
+        },
+        {
+            "isHumanoid": true,
+            "traits": [
+                "TALL",
+                "BLONDE"
+            ],
+            "id": 3,
+            "age": 2000
+        },
+        {
+            "isHumanoid": true,
+            "traits": [
+                "TALL"
+            ],
+            "id": 1,
+            "age": 1000
+        }
+    ]
+}

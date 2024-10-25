@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "isHumanoid": false,
+      "planet": "Endor",
+      "age": 60,
+      "traits": ["SHORT", "HAIRY"]
+    },
+    {
+      "id": 1,
+      "isHumanoid": true,
+      "planet": "Earth",
+      "age": 180,
+      "traits": ["POINTY_EARS", "BLONDE"]
+    },
+    {
+      "id": 2,
+      "isHumanoid": false,
+      "planet": "Kashyyk",
+      "age": 300,
+      "traits": ["TALL", "HAIRY"]
+    },
+    {
+      "id": 3,
+      "isHumanoid": true,
+      "planet": "Asgard",
+      "age": 2000,
+      "traits": ["TALL", "BLONDE"]
+    },
+    {
+      "id": 4,
+      "isHumanoid": false,
+      "planet": "Vogsphere",
+      "age": 150,
+      "traits": ["BULKY", "GREEN"]
+    }
+  ]
+}
