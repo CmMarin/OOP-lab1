@@ -1,5 +1,7 @@
 package task1;
 
+import java.util.List;
+
 public class Display {
 
     public int width;
@@ -41,8 +43,8 @@ public class Display {
         }
     }
 
-    public static void compareWithMonitor(Display[] displays) {
-        Display bestDisplay = displays[0];
+    public static void compareWithMonitor(List<Display> displays) {
+        Display bestDisplay = displays.get(0);
         double highestAverage = calculateAverage(bestDisplay);
 
         for (Display display : displays) {

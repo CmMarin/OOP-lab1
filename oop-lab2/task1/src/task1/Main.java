@@ -1,5 +1,7 @@
 package task1;
 
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -14,6 +16,6 @@ public class Main {
         display2.compareSharpness(display3);
         display3.compareSharpness(display1);
         display1.compareSharpness(display2);
-        Display.compareWithMonitor(displays);
+        Display.compareWithMonitor(List.of(displays));
     }
 }
