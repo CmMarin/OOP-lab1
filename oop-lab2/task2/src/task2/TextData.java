@@ -1,5 +1,7 @@
 package task2;
 
+import java.nio.file.Paths;
+
 public class TextData {
     private String fileName;
     private String text;
@@ -12,30 +14,30 @@ public class TextData {
     public TextData(String fileName, String text) {
         this.fileName = fileName;
         this.text = text;
-        this.numberOfVowels = countVowels();
-        this.numberOfConsonants = countConsonants();
-        this.numberOfLetters = countLetters();
-        this.numberOfSentences = countSentences();
-        this.longestWord = findLongestWord();
+        this.numberOfVowels = getNumberOfVowels();
+        this.numberOfConsonants = getNumberOfConsonants();
+        this.numberOfLetters = getNumberOfLetter();
+        this.numberOfSentences = getNumberOfSentences();
+        this.longestWord = getLongestWord();
     }
 
-    private int countVowels() {
+    private int getNumberOfVowels() {
         return (int) text.chars().filter(c -> "AEIOUaeiou".indexOf(c) != -1).count();
     }
 
-    private int countConsonants() {
+    private int getNumberOfConsonants() {
         return (int) text.chars().filter(c -> Character.isLetter(c) && "AEIOUaeiou".indexOf(c) == -1).count();
     }
 
-    private int countLetters() {
+    private int getNumberOfLetter() {
         return (int) text.chars().filter(Character::isLetter).count();
     }
 
-    private int countSentences() {
+    private int getNumberOfSentences() {
         return text.split("[.!?]").length;
     }
 
-    private String findLongestWord() {
+    private String getLongestWord() {
         String[] words = text.split("\\W+");
         String longest = "";
         for (String word : words) {
@@ -47,36 +49,17 @@ public class TextData {
     }
 
     public String getFilename() {
-        return fileName;
+        return Paths.get(fileName).getFileName().toString();
     }
 
     public String getText() {
         return text;
     }
 
-    public int getNumberOfVowels() {
-        return numberOfVowels;
-    }
-
-    public int getNumberOfConsonants() {
-        return numberOfConsonants;
-    }
-
-    public int getNumberOfLetters() {
-        return numberOfLetters;
-    }
-
-    public int getNumberOfSentences() {
-        return numberOfSentences;
-    }
-
-    public String getLongestWord() {
-        return longestWord;
-    }
-
     @Override
     public String toString() {
-        return "File: " + fileName + "\n" +
+        return "Content:" + text + "\n" +
+                "File: " + getFilename() + "\n" +
                 "Vowels: " + numberOfVowels + "\n" +
                 "Consonants: " + numberOfConsonants + "\n" +
                 "Letters: " + numberOfLetters + "\n" +
