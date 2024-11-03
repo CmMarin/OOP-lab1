@@ -3,8 +3,8 @@ package task2;
 public class Americano extends Coffee {
     private int mlOfWater;
 
-    public Americano(int mlOfWater) {
-        super("Americano", Intensity.STRONG);
+    public Americano(int mlOfWater, Intensity intensity) {
+        super("Americano", intensity);
         this.mlOfWater = mlOfWater;
     }
 
@@ -13,7 +13,9 @@ public class Americano extends Coffee {
     @Override
     public void printDetails(){
         super.printDetails();
-        System.out.println("Added " + mlOfWater  + " ml of water " );
+        System.out.println("Water quantity " + mlOfWater  + " ml of water " );
 
     }
+
+
 }

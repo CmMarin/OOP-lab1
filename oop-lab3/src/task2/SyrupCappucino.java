@@ -12,16 +12,16 @@ public class SyrupCappucino extends Cappucino {
     }
 
 
-    public SyrupCappucino(SyrupType syrupType, int mlOfMilk) {
-        super(mlOfMilk);
+    public SyrupCappucino(SyrupType syrupType, int mlOfMilk, Intensity intensity) {
+        super("Syrup Cappucino", mlOfMilk, intensity);
         this.syrupType = syrupType;
-        getName("Syrup Cappucino") ;
     }
 
     @Override
     public void printDetails(){
         super.printDetails();
-        System.out.println("With " + syrupType );
+        System.out.println("Syrup " + syrupType );
 
     }
+
 }
