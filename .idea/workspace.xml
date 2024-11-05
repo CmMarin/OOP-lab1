@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4994d53f-1d1e-480d-b207-7386448c3b3d" name="Changes" comment="Task 3: implemented the makeCoffee method; now each class have it's own version of the making process, utilizing the one in the main Coffee class as a base; utilized the static factory method to create and customize coffee objects, that are then called in the main class (by casting), also all parameters are passed from main" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="oop-intermediate-tasks" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CmMarin&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/CmMarin/OOP-lab1.git&quot;,
+    &quot;accountId&quot;: &quot;d1ae0325-48f9-4981-9c19-2a1dbd4363a2&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2nKyjNltz8Tw3pcECUYgk6SwCs6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.jsonParser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task2Arguments.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task4.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;oop-advanced-tasks&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Marin/IdeaProjects/oop-lab1/oop-lab2/task1/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Marin/IdeaProjects/oop-lab1/oop-lab3/src/task4&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Marin/IdeaProjects/oop-lab1/oop-lab3/src/task1/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Marin\IdeaProjects\oop-lab1\oop-lab3\src\task4" />
+      <recent name="C:\Users\Marin\IdeaProjects\oop-lab1\oop-lab3\src\task3" />
+      <recent name="C:\Users\Marin\IdeaProjects\oop-lab1\oop-lab3\src\task2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marin\IdeaProjects\oop-lab1\oop-lab2\task2\src\task2" />
+      <recent name="C:\Users\Marin\IdeaProjects\oop-lab1\oop-lab1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="task2Arguments" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/Eclipse Adoptium/jdk-21.0.2.13-hotspot" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="task2.Main" />
+      <module name="task2" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\Marin\IdeaProjects\oop-lab1\oop-lab2\task2\src\task2\textFiletask2.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task4" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="task2.Main" />
+      <module name="task2" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;C:\Users\Marin\IdeaProjects\oop-lab1\oop-lab2\task2\src\task2\textFiletask2.txt&quot; &quot;C:\Users\Marin\IdeaProjects\oop-lab1\oop-lab2\task2\src\task2\textFiletask4.txt&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.task4" />
+      <item itemvalue="Application.task2Arguments" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4994d53f-1d1e-480d-b207-7386448c3b3d" name="Changes" comment="Day 1 task; created a simple class for items (aliens); and one that will store them in an array list to start the design process" />
+      <created>1728736199016</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728736199016</updated>
+      <workItem from="1728736202069" duration="11789000" />
+      <workItem from="1729942291238" duration="9880000" />
+      <workItem from="1730221446828" duration="1076000" />
+      <workItem from="1730565758705" duration="35415000" />
+      <workItem from="1730651257333" duration="19138000" />
+    </task>
+    <task id="LOCAL-00001" summary="Day 2 task: created a separate class for the json parser; it will now read the test input file (json) and print out the aliens; also it will default to some values in case they were not provided">
+      <option name="closed" value="true" />
+      <created>1728737320975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728737320975</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Day 3.1 Task; modified the parser to include classification v1 - it is only for testing purposes it will be updated in the next commit; just trying out the mapping function">
+      <option name="closed" value="true" />
+      <created>1728743528596</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728743528596</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Day 3.5-4 Task; added a classification based on score-matching; added all the criteria to the classification class (which will be updated); updated the universe class to contain all known species in their respective universe, and the method of getting them">
+      <option name="closed" value="true" />
+      <created>1728766883860</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728766883860</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Day 4.1 Task: Made printing changes so it would not printing the raw data parsed, but it would be neatly shown in the console (for the moment)">
+      <option name="closed" value="true" />
+      <created>1728767779418</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728767779418</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Day 4.2 Task: Now we can classify aliens from multiple json files">
+      <option name="closed" value="true" />
+      <created>1728770981829</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728770981829</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Day 5 Task: removed printing in the console; added writing to output files and pretty formatting">
+      <option name="closed" value="true" />
+      <created>1728866358363</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728866358363</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Task 0: restructured the directory; moved into separate modules for ease of acces later on">
+      <option name="closed" value="true" />
+      <created>1729872497071</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729872497071</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Task 1: created display class, with the obj attributes and the comparing methods; objects can be instantiated manually, then the program compares size area, ppi, and the best average.">
+      <option name="closed" value="true" />
+      <created>1729887797242</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729887797242</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Task 2: created FileReader and TextData classes; experimented with packages and importing them from one module to another; added the .txt file to be read.">
+      <option name="closed" value="true" />
+      <created>1729942070019</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729942070019</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Task 3: created the Assistant class; updated the main class from task1 to use lists; added the assist method to use the methods imported from the display class; added JOptionPane class to the main for pop-up functionality and better user experience.">
+      <option name="closed" value="true" />
+      <created>1730038481644</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730038481644</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Task 4: modified Main from task 2 to allow for multiple file paths as inputs; modified TextData to fix names of methods that were overlooked in previous commit">
+      <option name="closed" value="true" />
+      <created>1730222152041</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1730222152041</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Task 1: Recreated the classes shown in the task description, while introducing the inheritance in the structure (the coffee class is the main parent at the moment, with 4 children).">
+      <option name="closed" value="true" />
+      <created>1730572317883</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1730572317883</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Task 1.1: Fixed the class structures, since they were not exactly as described in the description, now they properly utilize the inheritance, and every class adds one field to the parent.">
+      <option name="closed" value="true" />
+      <created>1730640441642</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1730640441642</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Task 2: Added constructors/getters to each class depending on the needs; added the printDetails method to print each coffee's details, utilizing inheritance, super classes and sub classes, overriding per class to add necessary fields.">
+      <option name="closed" value="true" />
+      <created>1730640591615</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1730640591615</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Task 2.1: Refactored the code so it doesn't use any extra methods, only inheritance principles; now all parameters are given through main">
+      <option name="closed" value="true" />
+      <created>1730650903498</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1730650903498</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Task 3: implemented the makeCoffee method; now each class have it's own version of the making process, utilizing the one in the main Coffee class as a base; utilized the static factory method to create and customize coffee objects, that are then called in the main class (by casting), also all parameters are passed from main">
+      <option name="closed" value="true" />
+      <created>1730651121679</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1730651121679</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="GitHub.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Day 1 task; created a simple class for items (aliens); and one that will store them in an array list to start the design process" />
+    <MESSAGE value="Day 2 task: created a separate class for the json parser; it will now read the test input file (json) and print out the aliens; also it will default to some values in case they were not provided" />
+    <MESSAGE value="Day 3.1 Task; modified the parser to include classification v1 - it is only for testing purposes it will be updated in the next commit; just trying out the mapping function" />
+    <MESSAGE value="Day 3.5-4 Task; added a classification based on score-matching; added all the criteria to the classification class (which will be updated); updated the universe class to contain all known species in their respective universe, and the method of getting them" />
+    <MESSAGE value="Day 4.1 Task: Made printing changes so it would not printing the raw data parsed, but it would be neatly shown in the console (for the moment)" />
+    <MESSAGE value="Day 4.2 Task: Now we can classify aliens from multiple json files" />
+    <MESSAGE value="Day 5 Task: removed printing in the console; added writing to output files and pretty formatting" />
+    <MESSAGE value="Task 0: restructured the directory; moved into separate modules for ease of acces later on" />
+    <MESSAGE value="Task 1: created display class, with the obj attributes and the comparing methods; objects can be instantiated manually, then the program compares size area, ppi, and the best average." />
+    <MESSAGE value="Task 2: created FileReader and TextData classes; experimented with packages and importing them from one module to another; added the .txt file to be read." />
+    <MESSAGE value="Task 3: created the Assistant class; updated the main class from task1 to use lists; added the assist method to use the methods imported from the display class; added JOptionPane class to the main for pop-up functionality and better user experience." />
+    <MESSAGE value="Task 4: modified Main from task 2 to allow for multiple file paths as inputs; modified TextData to fix names of methods that were overlooked in previous commit" />
+    <MESSAGE value="Task 1: Recreated the classes shown in the task description, while introducing the inheritance in the structure (the coffee class is the main parent at the moment, with 4 children)." />
+    <MESSAGE value="Task 1.1: Fixed the class structures, since they were not exactly as described in the description, now they properly utilize the inheritance, and every class adds one field to the parent." />
+    <MESSAGE value="Task 2: Added constructors/getters to each class depending on the needs; added the printDetails method to print each coffee's details, utilizing inheritance, super classes and sub classes, overriding per class to add necessary fields." />
+    <MESSAGE value="Task 2.1: Refactored the code so it doesn't use any extra methods, only inheritance principles; now all parameters are given through main" />
+    <MESSAGE value="Task 3: implemented the makeCoffee method; now each class have it's own version of the making process, utilizing the one in the main Coffee class as a base; utilized the static factory method to create and customize coffee objects, that are then called in the main class (by casting), also all parameters are passed from main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 3: implemented the makeCoffee method; now each class have it's own version of the making process, utilizing the one in the main Coffee class as a base; utilized the static factory method to create and customize coffee objects, that are then called in the main class (by casting), also all parameters are passed from main" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
