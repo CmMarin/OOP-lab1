@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4994d53f-1d1e-480d-b207-7386448c3b3d" name="Changes" comment="Task 3: implemented the makeCoffee method; now each class have it's own version of the making process, utilizing the one in the main Coffee class as a base; utilized the static factory method to create and customize coffee objects, that are then called in the main class (by casting), also all parameters are passed from main">
-      <change afterPath="$PROJECT_DIR$/oop-lab4/oop-lab4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task1/CircularStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task1/CircularStationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task1/PriorityStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task1/PriorityStationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task1/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task1/SimpleStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="4994d53f-1d1e-480d-b207-7386448c3b3d" name="Changes" comment="Task 1: Created the base Queue Interface, and 3 queue classes each of different type (linear, circular , priority) that implement the interface as specified in the task; Also wrote the corresponding tests for each class and they all pass">
+      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task2/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task2/Dineable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task2/ElectricStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task2/GasStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task2/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task2/PeopleDinner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task2/Refuable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task2/RobotDinner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -71,6 +71,7 @@
     "Application.task4.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.CircularStationTest.executor": "Run",
+    "JUnit.MainTest.executor": "Run",
     "JUnit.PriorityStationTest.executor": "Run",
     "JUnit.SimpleStation.enqueue.executor": "Run",
     "JUnit.SimpleStationTest.executor": "Run",
@@ -187,7 +188,7 @@
       <workItem from="1730221446828" duration="1076000" />
       <workItem from="1730565758705" duration="35415000" />
       <workItem from="1730651257333" duration="19138000" />
-      <workItem from="1732652992898" duration="22866000" />
+      <workItem from="1732652992898" duration="30388000" />
     </task>
     <task id="LOCAL-00001" summary="Day 2 task: created a separate class for the json parser; it will now read the test input file (json) and print out the aliens; also it will default to some values in case they were not provided">
       <option name="closed" value="true" />
@@ -317,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730651121679</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Task 1: Created the base Queue Interface, and 3 queue classes each of different type (linear, circular , priority) that implement the interface as specified in the task; Also wrote the corresponding tests for each class and they all pass">
+      <option name="closed" value="true" />
+      <created>1732727059367</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732727059367</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +372,8 @@
     <MESSAGE value="Task 2: Added constructors/getters to each class depending on the needs; added the printDetails method to print each coffee's details, utilizing inheritance, super classes and sub classes, overriding per class to add necessary fields." />
     <MESSAGE value="Task 2.1: Refactored the code so it doesn't use any extra methods, only inheritance principles; now all parameters are given through main" />
     <MESSAGE value="Task 3: implemented the makeCoffee method; now each class have it's own version of the making process, utilizing the one in the main Coffee class as a base; utilized the static factory method to create and customize coffee objects, that are then called in the main class (by casting), also all parameters are passed from main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 3: implemented the makeCoffee method; now each class have it's own version of the making process, utilizing the one in the main Coffee class as a base; utilized the static factory method to create and customize coffee objects, that are then called in the main class (by casting), also all parameters are passed from main" />
+    <MESSAGE value="Task 1: Created the base Queue Interface, and 3 queue classes each of different type (linear, circular , priority) that implement the interface as specified in the task; Also wrote the corresponding tests for each class and they all pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 1: Created the base Queue Interface, and 3 queue classes each of different type (linear, circular , priority) that implement the interface as specified in the task; Also wrote the corresponding tests for each class and they all pass" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
