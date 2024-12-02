@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4994d53f-1d1e-480d-b207-7386448c3b3d" name="Changes" comment="Task 3: implemented the makeCoffee method; now each class have it's own version of the making process, utilizing the one in the main Coffee class as a base; utilized the static factory method to create and customize coffee objects, that are then called in the main class (by casting), also all parameters are passed from main" />
+    <list default="true" id="4994d53f-1d1e-480d-b207-7386448c3b3d" name="Changes" comment="Task 4: Created the Sempahore class that handles json parsing from the designated Resources folder, generated previously; All cars are distributed to their respective stations by Semaphore, where they are then processed separately; Each station has a designated queue">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_controls.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_fxml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeneratorOOPlab4/GeneratorOOPlab4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task5/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task5/CarStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task5/Dineable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task5/ElectricStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task5/GasStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task5/PeopleDinner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task5/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task5/Refuable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task5/RobotDinner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task5/Semaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task5/SemaphoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop-lab4/src/task5/StationQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop-lab4/oop-lab4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/oop-lab4/oop-lab4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop-labs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/oop-labs.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +35,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Python Script" />
         <option value="Class" />
       </list>
     </option>
@@ -20,7 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="oop-intermediate-tasks" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,43 +76,101 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.CarSimulationGUI.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StationVisualization.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestSimpleStation.executor&quot;: &quot;Run&quot;,
     &quot;Application.jsonParser.executor&quot;: &quot;Run&quot;,
     &quot;Application.task2Arguments.executor&quot;: &quot;Run&quot;,
     &quot;Application.task4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task5.Main.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.CarStationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CircularStationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PriorityStationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SemaphoreTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SimpleStation.enqueue.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SimpleStationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SimpleStationTest.testEnqueue.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SimpleStationUserInputTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.script.executor&quot;: &quot;Run&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;oop-advanced-tasks&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;oop-master-tasks&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/Marin/IdeaProjects/oop-lab1/oop-lab2/task1/src&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Marin/IdeaProjects/oop-lab1/oop-lab3/src/task4&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Marin/IdeaProjects/oop-lab1/oop-lab4/src/task5&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Marin/IdeaProjects/oop-lab1/oop-lab3/src/task1/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Marin\IdeaProjects\oop-lab1\oop-lab4\src\task5" />
+      <recent name="C:\Users\Marin\IdeaProjects\oop-lab1\oop-lab4\src\task4" />
       <recent name="C:\Users\Marin\IdeaProjects\oop-lab1\oop-lab3\src\task4" />
       <recent name="C:\Users\Marin\IdeaProjects\oop-lab1\oop-lab3\src\task3" />
       <recent name="C:\Users\Marin\IdeaProjects\oop-lab1\oop-lab3\src\task2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marin\IdeaProjects\oop-lab1\GeneratorOOPlab4\Resources" />
+      <recent name="C:\Users\Marin\IdeaProjects\oop-lab1\oop-lab4\ResourcesGenerate" />
       <recent name="C:\Users\Marin\IdeaProjects\oop-lab1\oop-lab2\task2\src\task2" />
       <recent name="C:\Users\Marin\IdeaProjects\oop-lab1\oop-lab1" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="task1" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="Gradle Tasks" flag="true" />
+      <visibility group="Grunt" flag="true" />
+      <visibility group="Gulp" flag="true" />
+      <visibility group="HTTP Requests" flag="true" />
+      <visibility group="Maven Goals" flag="true" />
+      <visibility group="Node.js" flag="true" />
+      <visibility group="Recent projects" flag="true" />
+      <visibility group="Run configurations" flag="true" />
+      <visibility group="npm" flag="true" />
+      <visibility group="yarn" flag="true" />
+    </myKeys>
   </component>
   <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task4.Main" />
+      <module name="oop-lab4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="task2Arguments" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/Eclipse Adoptium/jdk-21.0.2.13-hotspot" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -108,16 +191,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleStationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop-lab4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task1" />
+      <option name="MAIN_CLASS_NAME" value="task1.SimpleStationTest" />
+      <option name="METHOD_NAME" value="testStress" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.task4" />
       <item itemvalue="Application.task2Arguments" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.SimpleStationTest" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SimpleStationTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -134,6 +241,13 @@
       <workItem from="1730221446828" duration="1076000" />
       <workItem from="1730565758705" duration="35415000" />
       <workItem from="1730651257333" duration="19138000" />
+      <workItem from="1732652992898" duration="33042000" />
+      <workItem from="1732776946847" duration="88000" />
+      <workItem from="1732777847953" duration="813000" />
+      <workItem from="1732780120856" duration="44000" />
+      <workItem from="1732780303164" duration="2342000" />
+      <workItem from="1732810265059" duration="41884000" />
+      <workItem from="1733125240269" duration="1709000" />
     </task>
     <task id="LOCAL-00001" summary="Day 2 task: created a separate class for the json parser; it will now read the test input file (json) and print out the aliens; also it will default to some values in case they were not provided">
       <option name="closed" value="true" />
@@ -263,7 +377,47 @@
       <option name="project" value="LOCAL" />
       <updated>1730651121679</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Task 1: Created the base Queue Interface, and 3 queue classes each of different type (linear, circular , priority) that implement the interface as specified in the task; Also wrote the corresponding tests for each class and they all pass">
+      <option name="closed" value="true" />
+      <created>1732727059367</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732727059367</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Task 2: Created two interfaces for Dining and Refueling, implemented by their respective classes; added a car class for testing purposes; main contains more code than necessary, but they are for test purposes - to be replaced next task">
+      <option name="closed" value="true" />
+      <created>1732736383843</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1732736383843</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Task 3: created CarStation to support dynamic dining and refueling services based on car attributes; implemented tracking for station and customer statistics; added a unit test to verify car handling logic and statistics accuracy;">
+      <option name="closed" value="true" />
+      <created>1732820733485</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1732820733485</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Task 2.1: fixed misspell">
+      <option name="closed" value="true" />
+      <created>1733125383145</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1733125383145</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Task 4: Created the Sempahore class that handles json parsing from the designated Resources folder, generated previously; All cars are distributed to their respective stations by Semaphore, where they are then processed separately; Each station has a designated queue">
+      <option name="closed" value="true" />
+      <created>1733127456165</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1733127456165</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +463,12 @@
     <MESSAGE value="Task 2: Added constructors/getters to each class depending on the needs; added the printDetails method to print each coffee's details, utilizing inheritance, super classes and sub classes, overriding per class to add necessary fields." />
     <MESSAGE value="Task 2.1: Refactored the code so it doesn't use any extra methods, only inheritance principles; now all parameters are given through main" />
     <MESSAGE value="Task 3: implemented the makeCoffee method; now each class have it's own version of the making process, utilizing the one in the main Coffee class as a base; utilized the static factory method to create and customize coffee objects, that are then called in the main class (by casting), also all parameters are passed from main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 3: implemented the makeCoffee method; now each class have it's own version of the making process, utilizing the one in the main Coffee class as a base; utilized the static factory method to create and customize coffee objects, that are then called in the main class (by casting), also all parameters are passed from main" />
+    <MESSAGE value="Task 1: Created the base Queue Interface, and 3 queue classes each of different type (linear, circular , priority) that implement the interface as specified in the task; Also wrote the corresponding tests for each class and they all pass" />
+    <MESSAGE value="Task 2: Created two interfaces for Dining and Refueling, implemented by their respective classes; added a car class for testing purposes; main contains more code than necessary, but they are for test purposes - to be replaced next task" />
+    <MESSAGE value="Task 3: created CarStation to support dynamic dining and refueling services based on car attributes; implemented tracking for station and customer statistics; added a unit test to verify car handling logic and statistics accuracy;" />
+    <MESSAGE value="Task 2.1: fixed misspell" />
+    <MESSAGE value="Task 4: Created the Sempahore class that handles json parsing from the designated Resources folder, generated previously; All cars are distributed to their respective stations by Semaphore, where they are then processed separately; Each station has a designated queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 4: Created the Sempahore class that handles json parsing from the designated Resources folder, generated previously; All cars are distributed to their respective stations by Semaphore, where they are then processed separately; Each station has a designated queue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -318,7 +477,30 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/oop-lab4/src/task3/Queue.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/oop-lab4/src/task5/Semaphore.java</url>
+          <line>47</line>
+          <properties class="task5.Semaphore" method="runGeneratorScript">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="car.type.hash" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/oop_lab1$script.coverage" NAME="script Coverage Results" MODIFIED="1732999484936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GeneratorOOPlab4/Resources" />
+    <SUITE FILE_PATH="coverage/oop_lab1$generator.coverage" NAME="generator Coverage Results" MODIFIED="1732999742098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GeneratorOOPlab4/Resources" />
   </component>
 </project>
